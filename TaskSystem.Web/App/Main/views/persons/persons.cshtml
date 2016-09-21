@@ -1,0 +1,22 @@
+﻿<div class="panel panel-default" ng-controller="ts.views.persons.persons as vm">
+
+   <div class="panel-heading" style="position: relative;">
+      <div class="row">
+
+         <!-- Title -->
+         <h3 class="panel-title col-xs-6">
+            @L("Persons")
+         </h3>
+      </div>
+   </div>
+
+   <!-- Task list -->
+   <ul class="list-group taskList" ng-repeat="person in vm.people">
+      <div class="list-group-item person">
+         <span class="task-assignedto">{{person.job}}, {{person.name}}</span>
+         @*<a class="pull-right" ng-click="vm.removePerson(person.id)">Delete Person</a>*@
+         <div class="pull-right task-state-icon glyphicon glyphicon-remove" style="color:red" ng-click="vm.removePerson(person.id)"></div>
+      </div>
+   </ul>
+
+</div>

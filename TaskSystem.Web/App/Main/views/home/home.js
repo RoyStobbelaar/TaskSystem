@@ -5,10 +5,8 @@
             var vm = this;
            //Home logic...
 
-            this.welcomeMessage = "Heya!, Welcome here :) Enjoy creating some tasks. ";
-
-            vm.title = "TaskSystem!";
-            vm.welcomeMessage = "Heya!, Welcome here :) Enjoy creating some tasks. ";
+            vm.title = "Roy's Tasklist";
+            vm.welcomeMessage = "Keep track of your tasks :> ";
 
         }
     ]);

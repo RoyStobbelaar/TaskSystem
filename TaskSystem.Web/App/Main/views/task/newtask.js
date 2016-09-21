@@ -9,10 +9,9 @@
 
           vm.task = {
              description: '',
-             assignedPersonId: null
+             assignedPersonId: null,
+             completionTime:null
           };
-
-          vm.testText = "aijd iojasd ioajsd afgnsdjk anjkdna";
 
           var localize = abp.localization.getSource('TaskSystem');
 
@@ -23,6 +22,7 @@
           });
 
           vm.saveTask = function () {
+             console.log(vm.task);
              abp.ui.setBusy(
                  null,
                  taskService.createTask(

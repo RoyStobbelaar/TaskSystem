@@ -67,6 +67,12 @@ namespace TaskSystem.Tasks
          {
             task.AssignedPerson = _personRepository.Load(input.AssignedPersonId.Value);
          }
+
+         //If task is completed and has not been completed before => add new completion date
+         if (input.State == TaskState.Completed)
+         {
+            task.CompletionTime = DateTime.Now;
+         }
       }
 
 
@@ -82,6 +88,11 @@ namespace TaskSystem.Tasks
          }
 
          _taskRepository.Insert(task);
+      }
+
+      public void DeleteTask(int id)
+      {
+         _taskRepository.Delete(id);
       }
    }
 }

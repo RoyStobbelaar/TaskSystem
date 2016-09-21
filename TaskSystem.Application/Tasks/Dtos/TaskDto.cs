@@ -13,21 +13,27 @@ namespace TaskSystem.Tasks.Dtos
 
       public string AssignedPersonName { get; set; }
 
+      public string AssignedPersonJob { get; set; }
+
       public string Description { get; set; }
 
       public DateTime Creationtime { get; set; }
+
+      public DateTime CompletionTime { get; set; }
 
       public byte State { get; set; }
 
       public override string ToString()
       {
          return string.Format(
-            "[Task Id={0}, Description={1}, CreationTime={2}, AssignedPersonName={3}, State={4}]",
+            "[Task Id={0}, Description={1}, CreationTime={2}, AssignedPersonName={3}, AssignedPersonJob={4}, State={5}, CompletionTime={6}]",
             Id,
             Description,
             Creationtime,
             AssignedPersonName,
-            (TaskState)State);
+            AssignedPersonJob,
+            (TaskState)State,
+         CompletionTime);
       }
    }
 }

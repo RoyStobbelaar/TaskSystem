@@ -12,5 +12,6 @@ namespace TaskSystem.People.Dtos
    public class PersonDto : EntityDto
    {
       public string Name { get; set; }
+      public string Job { get; set; }
    }
 }

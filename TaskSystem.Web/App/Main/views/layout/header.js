@@ -9,11 +9,13 @@
             vm.currentLanguage = abp.localization.currentLanguage;
 
             vm.menu = abp.nav.menus.MainMenu;
-            //vm.currentMenuName = $state.current.menu;
+            vm.currentMenuName = $state.current.menu;
 
             $rootScope.$on('$stateChangeSuccess', function (event, toState, toParams, fromState, fromParams) {
                 vm.currentMenuName = toState.menu;
             });
+
+            console.log(vm.menu);
 
             //vm.getShownUserName = function () {
             //    if (!abp.multiTenancy.isEnabled) {

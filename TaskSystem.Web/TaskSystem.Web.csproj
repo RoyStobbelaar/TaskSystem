@@ -318,7 +318,9 @@
     <Content Include="App\Main\views\about\about.js" />
     <None Include="App\Main\views\task\tasklist.cshtml" />
     <None Include="App\Main\views\task\newtask.cshtml" />
-    <Content Include="App\Main\views\persons\persons.html" />
+    <None Include="App\Main\views\persons\persons.cshtml" />
+    <None Include="App\Main\views\persons\newperson.cshtml" />
+    <Content Include="App\Main\views\persons\newperson.js" />
     <Content Include="App\Main\views\persons\persons.js" />
     <Content Include="App\Main\views\task\newtask.js" />
     <Content Include="App\Main\views\task\tasklist.js" />
@@ -337,6 +339,7 @@
     <Content Include="Content\flags\famfamfam-flags.png" />
     <Content Include="Content\font-awesome.css" />
     <Content Include="Content\font-awesome.min.css" />
+    <Content Include="Content\myStyle.css" />
     <Content Include="Content\themes\base\accordion.css" />
     <Content Include="Content\themes\base\all.css" />
     <Content Include="Content\themes\base\autocomplete.css" />

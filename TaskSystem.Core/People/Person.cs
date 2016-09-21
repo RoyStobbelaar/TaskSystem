@@ -10,5 +10,7 @@ namespace TaskSystem.People
    public class Person : Entity
    {
       public virtual string Name { get; set; }
+
+      public virtual string Job { get; set; }
    }
 }

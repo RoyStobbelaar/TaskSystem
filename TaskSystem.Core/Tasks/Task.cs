@@ -12,7 +12,8 @@ namespace TaskSystem.Tasks
    public enum TaskState : byte
    {
       Active = 1,
-      Completed = 2
+      InProgress = 2,
+      Completed = 3
    }
 
    public class Task : Entity<long> 
@@ -26,12 +27,15 @@ namespace TaskSystem.Tasks
 
       public virtual DateTime CreationTime { get; set; }
 
+      public virtual DateTime? CompletionTime { get; set; }
+
       public virtual TaskState State { get; set; }
 
       public Task()
       {
          CreationTime = DateTime.Now;
          State = TaskState.Active;
+         CompletionTime = null;
       }
    }
 }

@@ -11,5 +11,7 @@ namespace TaskSystem.People
    public interface IPersonAppService : IApplicationService
    {
       Task<GetAllPeopleOutput> GetAllPeople();
+      void CreatePerson(CreatePersonInput input);
+      void DeletePerson(int id);
    }
 }

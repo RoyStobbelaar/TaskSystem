@@ -32,6 +32,7 @@ namespace TaskSystem.Tests
             {
                 new InitialHostDbBuilder(context).Create();
                 new DefaultTenantCreator(context).Create();
+                new TestDataCreator(context).Create();
             });
 
             //Seed initial data for default tenant

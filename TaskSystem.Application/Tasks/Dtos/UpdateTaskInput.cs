@@ -18,6 +18,8 @@ namespace TaskSystem.Tasks.Dtos
 
       public TaskState? State { get; set; }
 
+      public DateTime CompletionTime { get; set; }
+
       public void AddValidationErrors(List<ValidationResult> results)
       {
          if(AssignedPersonId == null && State == null)

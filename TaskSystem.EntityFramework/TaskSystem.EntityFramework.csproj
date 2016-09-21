@@ -181,8 +181,21 @@
     <Compile Include="Migrations\201609160804346_InitialPersonCreation.Designer.cs">
       <DependentUpon>201609160804346_InitialPersonCreation.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201609190838344_Person model added job attribute.cs" />
+    <Compile Include="Migrations\201609190838344_Person model added job attribute.Designer.cs">
+      <DependentUpon>201609190838344_Person model added job attribute.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201609201407091_completionTime on Task.cs" />
+    <Compile Include="Migrations\201609201407091_completionTime on Task.Designer.cs">
+      <DependentUpon>201609201407091_completionTime on Task.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201609210651572_Updated task model with completion date.cs" />
+    <Compile Include="Migrations\201609210651572_Updated task model with completion date.Designer.cs">
+      <DependentUpon>201609210651572_Updated task model with completion date.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\AbpZeroDbMigrator.cs" />
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Migrations\SeedData\TestDataCreator.cs" />
     <Compile Include="TaskSystemDataModule.cs" />
     <Compile Include="Migrations\SeedData\DefaultEditionsCreator.cs" />
     <Compile Include="Migrations\SeedData\DefaultLanguagesCreator.cs" />
@@ -251,6 +264,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201609160804346_InitialPersonCreation.resx">
       <DependentUpon>201609160804346_InitialPersonCreation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201609190838344_Person model added job attribute.resx">
+      <DependentUpon>201609190838344_Person model added job attribute.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201609201407091_completionTime on Task.resx">
+      <DependentUpon>201609201407091_completionTime on Task.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201609210651572_Updated task model with completion date.resx">
+      <DependentUpon>201609210651572_Updated task model with completion date.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

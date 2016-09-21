@@ -13,5 +13,6 @@ namespace TaskSystem.Tasks
       GetTaskOutput GetTasks(GetTaskInput input);
       void UpdateTask(UpdateTaskInput input);
       void CreateTask(CreateTaskInput input);
+      void DeleteTask(int id);
    }
 }

@@ -17,33 +17,34 @@ namespace TaskSystem.Web
          context.Manager.MainMenu
              .AddItem(
             new MenuItemDefinition(
-               "Home",
-               new LocalizableString("HomePage", TaskSystemConsts.LocalizationSourceName),
-               url: "#/",
-               icon: "fa fa-home"
-               )
-             ).AddItem(
-            new MenuItemDefinition(
                "TaskList",
-               new LocalizableString("TaskList", TaskSystemConsts.LocalizationSourceName),
-               url: "#tasklist",
-               icon: "fa fa-globe"
+               L("Task List"),
+               url: "#/",
+               icon: "fa fa-list-alt"
                )
                ).AddItem(
             new MenuItemDefinition(
                "NewTask",
-               new LocalizableString("NewTask", TaskSystemConsts.LocalizationSourceName),
-               url: "#newtask",
-               icon: "fa fa-globe"
+               L("New Task"),
+               url: "#/newtask",
+               icon: "fa fa-plus"
                )
                ).AddItem(
             new MenuItemDefinition(
                "Persons",
-               new LocalizableString("Persons", TaskSystemConsts.LocalizationSourceName),
-               url: "#persons",
+               L("Person List"),
+               url: "#/persons",
                icon: "fa fa-users"
                )
+               ).AddItem(
+            new MenuItemDefinition(
+               "NewPerson",
+               L("New Person"),
+               url: "#/newperson",
+               icon: "fa fa-plus"
+               )
              );
+
       }
 
       private static ILocalizableString L(string name)

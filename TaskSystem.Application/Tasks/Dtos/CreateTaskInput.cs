@@ -12,6 +12,8 @@ namespace TaskSystem.Tasks.Dtos
    {
       public int? AssignedPersonId { get; set; }
 
+      public DateTime CompletionTime { get; set; }
+
       [Required]
       public string Description { get; set; }
 

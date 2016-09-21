@@ -1,6 +1,6 @@
 ﻿<div class="panel panel-default" ng-controller="ts.views.task.tasklist as vm">
 
-   <div class="panel-heading" style="position: relative;">
+   <div class="panel-heading taskListHeading" style="position: relative;">
       <div class="row">
 
          <!-- Title -->
@@ -11,25 +11,27 @@
          <!-- Task state combobox -->
          <div class="col-xs-6 text-right">
             <select ng-model="selectedTaskState">
-               <option value="0">@L("AllTasks")</option>
-               <option value="1">@L("ActiveTasks")</option>
-               <option value="2">@L("CompletedTasks")</option>
+               <option value="0" ng-selected="true">@L("AllTasks")</option>
+               <option value="1">@L("TodoTasks")</option>
+               <option value="2">@L("InProgressTasks")</option>
+               <option value="3">@L("CompletedTasks")</option>
             </select>
          </div>
       </div>
    </div>
 
    <!-- Task list -->
-   <ul class="list-group" ng-repeat="task in vm.tasks">
-      <div class="list-group-item">
-         <span class="task-state-icon glyphicon" ng-click="vm.changeTaskState(task)" ng-class="{'glyphicon-minus': task.state == 1, 'glyphicon-ok': task.state == 2}"></span>
-         <span ng-class="{'task-description-active': task.state == 1, 'task-description-completed': task.state == 2 }">{{task.description}}</span>
+   <ul class="list-group taskList" ng-repeat="task in vm.tasks | orderBy:'state'">
+      <div class="list-group-item" ng-class="{'active': task.state === 1, 'inprogress': task.state === 2 , 'complete':task.state === 3}">
+         <span class="task-state-icon glyphicon" ng-click="vm.changeTaskState(task)" ng-class="{'glyphicon-minus': task.state === 1, 'glyphicon-chevron-right': task.state === 2, 'glyphicon-ok': task.state === 3}"></span>
+         <span ng-class="{'task-description-active': task.state === 1, 'task-description-inprogess': task.state === 2, 'task-description-completed': task.state === 3 }">{{task.description}}</span>
+         <div class="pull-right task-state-icon glyphicon glyphicon-remove" ng-click="vm.removeTask(task.id)"></div>
          <br />
+
          <span ng-show="task.assignedPersonId > 0">
-            <span class="task-assignedto">{{task.assignedPersonName}}</span>
+            <span class="task-assignedto cite"> {{task.assignedPersonJob}}, {{task.assignedPersonName}} <span ng-show="task.state === 3">{{task.completionTime | date:'dd/MM/yyyy'}}</span> </span> 
          </span>
          <span class="task-creationtime">{{task.creationTime}}</span>
       </div>
    </ul>
-
 </div>

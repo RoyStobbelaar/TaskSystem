@@ -31,5 +31,25 @@ namespace TaskSystem.People
             People = people.MapTo<List<PersonDto>>()
          };
       }
+
+      public void CreatePerson(CreatePersonInput input)
+      {
+         Logger.Info("Creating a person for input : " + input);
+
+         var person = new Person { Name = input.Name , Job = input.Job};
+
+         if (input.Name != null)
+         {
+            person.Name = input.Name;
+            person.Job = input.Job;
+         }
+
+         _personRepository.Insert(person);
+      }
+
+      public void DeletePerson(int personId)
+      {
+         _personRepository.Delete(personId);
+      }
    }
 }

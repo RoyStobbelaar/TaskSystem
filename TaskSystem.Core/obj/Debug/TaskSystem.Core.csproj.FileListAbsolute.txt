@@ -27,3 +27,4 @@ D:\Projects\TaskSystem\TaskSystem.Core\bin\Debug\Nito.AsyncEx.Enlightenment.xml
 D:\Projects\TaskSystem\TaskSystem.Core\bin\Debug\System.Collections.Immutable.xml
 D:\Projects\TaskSystem\TaskSystem.Core\obj\Debug\TaskSystem.Core.dll
 D:\Projects\TaskSystem\TaskSystem.Core\obj\Debug\TaskSystem.Core.pdb
+D:\Projects\TaskSystem\TaskSystem.Core\obj\Debug\TaskSystem.Core.csprojResolveAssemblyReference.cache

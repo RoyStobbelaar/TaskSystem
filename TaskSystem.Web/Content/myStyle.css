@@ -1,0 +1,113 @@
+﻿body {
+   background-color: #3a3b40;
+   color: white;
+}
+
+select{
+   color:black;
+}
+
+.glypicon {
+   pointer-events: all;
+}
+
+/*Navbar stuff*/
+
+.navbar-inverse {
+   background-color: #1f1e2e;
+   border: 1px solid #2d4e64;
+}
+
+   .navbar-inverse .navbar-nav > li > a {
+      color: #70edff;
+   }
+
+   .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+      color: #d1fbff;
+      background-color: #2d4e64;
+   }
+
+   .navbar-inverse .navbar-nav > li > a:hover {
+      background-color: #506a7a;
+   }
+
+   .navbar-inverse .navbar-nav > li > a:focus {
+      background-color: #1f1e2e;
+      color: #70edff;
+   }
+
+   .navbar-inverse .navbar-brand {
+      color: #d1fbff;
+   }
+
+/*Tasks*/
+
+.complete {
+   background-color: #4af875;
+   border: 1px solid black;
+}
+
+.inprogress {
+   background-color: #ffbe23;
+   border: 1px solid black;
+}
+
+.active {
+   background-color: #dedede;
+   border: 1px solid black;
+}
+
+.person{
+      background-color: #70edff;
+         border: 1px solid black;
+
+}
+
+.taskList {
+   padding: 5px;
+   background-color: #545763;
+   color: ##1f1e2e;
+   /*border: 1px solid black;*/
+   border-bottom:1px solid black;
+}
+
+.cite{
+   font-style:italic;
+}
+
+.taskListHeading {
+   padding: 15px;
+}
+
+.panel {
+   background-color: #a5a5a5;
+   border: 1px solid #000000;
+   color: black;
+}
+
+.panel-default > .panel-heading {
+   background-color: #1f1e2e;
+   /*border: 1px solid #2d4e64;*/
+   color:#70edff;
+   border-bottom:1px solid black;
+}
+
+.panel-heading + .list-group .list-group-item:first-child {
+   border-top-width: 1px;
+}
+
+.panel > .list-group .list-group-item {
+   border-width: 1px;
+   border-radius: 8px;
+}
+
+.list-group-item:last-child {
+   margin-bottom: 1px;
+   border-bottom-right-radius: 1px;
+   border-bottom-left-radius: 1px;
+}
+
+.list-group-item:first-child {
+   border-top-right-radius: 1px;
+   border-top-left-radius: 1px;
+}

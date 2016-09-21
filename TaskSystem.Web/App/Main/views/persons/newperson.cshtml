@@ -1,0 +1,11 @@
+﻿<div ng-controller="ts.views.persons.newperson as vm">
+   <form id="NewPersonForm" role="form" name="newPersonForm" novalidate>
+      <div class="form-group">
+         <label for="TaskDescription">@L("Add person")</label>
+         <input type="text" id="PersonName" ng-model="vm.person.name" class="form-control" rows="3" placeholder="@L(" EnterName")" required></input>
+         <label for="TaskDescription">@L("Add person")</label>
+         <input type="text" id="PersonJob" ng-model="vm.person.job" class="form-control" rows="3" placeholder="@L(" EnterJob")" required></input>
+      </div>
+      <button ng-click="vm.savePerson()" ng-disabled="newPersonForm.$invalid" type="submit" class="btn btn-primary">@L("CreateNewPerson")</button>
+   </form>
+</div>

@@ -36,14 +36,14 @@ namespace TaskSystem.Migrations
          }
 
          //Create some sample people
-         context.People.AddOrUpdate(
-            p => p.Name,
-            new Person { Name = "Ryo Takashi" },
-            new Person { Name = "Miya Shuzo" },
-            new Person { Name = "Kazura Ryozaki" },
-            new Person { Name = "Yamato Kishi" }
-            );
-         context.SaveChanges();
+         //context.People.AddOrUpdate(
+         //   p => p.Name,
+         //   new Person { Name = "Ryo Takashi", Job = "Student" },
+         //   new Person { Name = "Miya Shuzo", Job = "Student" },
+         //   new Person { Name = "Kazura Ryozaki", Job = "Software Developer" },
+         //   new Person { Name = "Yamato Kishi", Job = "Student" }
+         //   );
+         //context.SaveChanges();
       }
    }
 }

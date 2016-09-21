@@ -61,3 +61,6 @@ D:\Projects\TaskSystem\TaskSystem.EntityFramework\bin\Debug\System.Collections.I
 D:\Projects\TaskSystem\TaskSystem.EntityFramework\obj\Debug\TaskSystem.EntityFramework.dll
 D:\Projects\TaskSystem\TaskSystem.EntityFramework\obj\Debug\TaskSystem.EntityFramework.pdb
 D:\Projects\TaskSystem\TaskSystem.EntityFramework\obj\Debug\TaskSystem.Migrations.InitialPersonCreation.resources
+D:\Projects\TaskSystem\TaskSystem.EntityFramework\obj\Debug\TaskSystem.Migrations.Personmodeladdedjobattribute.resources
+D:\Projects\TaskSystem\TaskSystem.EntityFramework\obj\Debug\TaskSystem.Migrations.completionTimeonTask.resources
+D:\Projects\TaskSystem\TaskSystem.EntityFramework\obj\Debug\TaskSystem.Migrations.Updatedtaskmodelwithcompletiondate.resources
