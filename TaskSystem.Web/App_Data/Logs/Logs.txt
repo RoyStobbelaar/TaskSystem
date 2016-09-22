@@ -16797,3 +16797,68 @@ INFO  2016-09-22 15:14:16,609 [48   ] TaskSystem.Tasks.TaskAppService          -
 <Deelvraag> Extra info framework oid? like architectuur?? </Deelvraag>
 <Deelvraag> Zijn er andere alternative frameworks om dit in te ontwikkelen? </Deelvraag>
 <Deelvraag> Zijn er alternatieven? </Deelvraag>]
+DEBUG 2016-09-22 17:22:38,142 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-09-22 17:22:38,154 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2016-09-22 17:22:38,158 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TaskSystem.Web.TaskSystemWebModule, TaskSystem.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-22 17:22:38,160 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TaskSystem.TaskSystemDataModule, TaskSystem.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-22 17:22:38,160 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.11.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-22 17:22:38,160 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.11.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-22 17:22:38,161 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.11.0.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-22 17:22:38,161 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.11.0.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-22 17:22:38,161 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TaskSystem.TaskSystemCoreModule, TaskSystem.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-22 17:22:38,161 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TaskSystem.TaskSystemApplicationModule, TaskSystem.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-22 17:22:38,161 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.11.0.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-22 17:22:38,162 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TaskSystem.Api.TaskSystemWebApiModule, TaskSystem.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-22 17:22:38,162 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.11.0.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-22 17:22:38,162 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.11.0.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-22 17:22:38,162 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=0.11.0.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-22 17:22:38,162 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=0.11.0.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-22 17:22:38,162 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.11.0.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-22 17:22:38,165 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2016-09-22 17:22:38,245 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-09-22 17:22:38,245 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-09-22 17:22:38,245 [1    ] o.Configuration.LanguageManagementConfig - Converted TaskSystem (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-09-22 17:22:38,245 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-09-22 17:22:38,543 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: TaskSystem.EntityFramework.TaskSystemDbContext, TaskSystem.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-22 17:22:39,896 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2016-09-22 17:22:39,916 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-09-22 17:22:39,917 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2016-09-22 17:22:39,919 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: TaskSystem
+DEBUG 2016-09-22 17:22:39,919 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-09-22 17:22:40,046 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-09-22 17:22:40,066 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes defines auto mapping attributes
+DEBUG 2016-09-22 17:22:40,066 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaskSystem.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2016-09-22 17:22:40,068 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaskSystem.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2016-09-22 17:22:40,068 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaskSystem.Sessions.Dto.UserLoginInfoDto
+DEBUG 2016-09-22 17:22:40,068 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaskSystem.Users.Dto.CreateUserInput
+DEBUG 2016-09-22 17:22:40,068 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaskSystem.Users.Dto.UserListDto
+DEBUG 2016-09-22 17:22:40,068 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaskSystem.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2016-09-22 17:22:40,069 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaskSystem.MultiTenancy.Dto.TenantListDto
+DEBUG 2016-09-22 17:22:40,069 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaskSystem.People.Dtos.PersonDto
+DEBUG 2016-09-22 17:22:41,459 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaskSystem.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2016-09-22 17:22:41,460 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaskSystem.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2016-09-22 17:22:41,461 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaskSystem.Tasks.ITaskAppService' with service name 'app/task'.
+DEBUG 2016-09-22 17:22:41,462 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaskSystem.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2016-09-22 17:22:41,463 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaskSystem.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2016-09-22 17:22:41,464 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaskSystem.People.IPersonAppService' with service name 'app/person'.
+WARN  2016-09-22 17:22:47,634 [7    ] Abp.Logging.LogHelper                    - Can not find 'Task List' in localization source 'TaskSystem'!
+WARN  2016-09-22 17:22:47,635 [7    ] Abp.Logging.LogHelper                    - Can not find 'New Task' in localization source 'TaskSystem'!
+WARN  2016-09-22 17:22:47,635 [7    ] Abp.Logging.LogHelper                    - Can not find 'Person List' in localization source 'TaskSystem'!
+WARN  2016-09-22 17:22:47,636 [7    ] Abp.Logging.LogHelper                    - Can not find 'New Person' in localization source 'TaskSystem'!
+DEBUG 2016-09-22 17:22:48,115 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"336c97be-4cc6-4494-9a73-f7147a8a21c2","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-09-22T17:22:48.1158312+02:00","Properties":{}}
+DEBUG 2016-09-22 17:22:48,155 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 336c97be-4cc6-4494-9a73-f7147a8a21c2
+WARN  2016-09-22 17:22:48,409 [7    ] Abp.Logging.LogHelper                    - Can not find 'TaskList' in localization source 'TaskSystem'!
+WARN  2016-09-22 17:22:48,409 [7    ] Abp.Logging.LogHelper                    - Can not find 'AllTasks' in localization source 'TaskSystem'!
+WARN  2016-09-22 17:22:48,409 [7    ] Abp.Logging.LogHelper                    - Can not find 'TodoTasks' in localization source 'TaskSystem'!
+WARN  2016-09-22 17:22:48,409 [7    ] Abp.Logging.LogHelper                    - Can not find 'InProgressTasks' in localization source 'TaskSystem'!
+WARN  2016-09-22 17:22:48,409 [7    ] Abp.Logging.LogHelper                    - Can not find 'CompletedTasks' in localization source 'TaskSystem'!
+WARN  2016-09-22 17:22:54,734 [10   ] Abp.Logging.LogHelper                    - Can not find 'Title' in localization source 'TaskSystem'!
+WARN  2016-09-22 17:22:54,735 [10   ] Abp.Logging.LogHelper                    - Can not find 'Enter Title' in localization source 'TaskSystem'!
+WARN  2016-09-22 17:22:54,735 [10   ] Abp.Logging.LogHelper                    - Can not find 'Description' in localization source 'TaskSystem'!
+WARN  2016-09-22 17:22:54,736 [10   ] Abp.Logging.LogHelper                    - Can not find ' Enter Description' in localization source 'TaskSystem'!
+WARN  2016-09-22 17:22:54,736 [10   ] Abp.Logging.LogHelper                    - Can not find 'AssignTo' in localization source 'TaskSystem'!
+WARN  2016-09-22 17:22:54,737 [10   ] Abp.Logging.LogHelper                    - Can not find 'SelectPerson' in localization source 'TaskSystem'!
+WARN  2016-09-22 17:22:54,738 [10   ] Abp.Logging.LogHelper                    - Can not find 'CreateTheTask' in localization source 'TaskSystem'!
+INFO  2016-09-22 17:23:46,109 [7    ] TaskSystem.Tasks.TaskAppService          - Updating a task for input: [UpdateTaskInput > TaskId = 7, AssignedPersonId = 11, State = , Description = Beheerinterface & Gebruikers uitbreiden voor donderdag.
+Zelf goed nadenken over de user stories en vragen stellen indien niet duidelijk.]
+DEBUG 2016-09-22 17:23:58,402 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 336c97be-4cc6-4494-9a73-f7147a8a21c2
