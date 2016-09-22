@@ -36,13 +36,14 @@ namespace TaskSystem.People
       {
          Logger.Info("Creating a person for input : " + input);
 
-         var person = new Person { Name = input.Name , Job = input.Job};
-
-         if (input.Name != null)
+         var person = new Person
          {
-            person.Name = input.Name;
-            person.Job = input.Job;
-         }
+            FirstName = input.FirstName,
+            LastName = input.LastName,
+            EmailAddress = input.EmailAddress,
+            Job = input.Job,
+            Gender = input.Gender
+         };
 
          _personRepository.Insert(person);
       }
@@ -50,6 +51,30 @@ namespace TaskSystem.People
       public void DeletePerson(int personId)
       {
          _personRepository.Delete(personId);
+      }
+
+      public GetPersonByIdOutput GetPersonById(int id)
+      {
+         var person = _personRepository.Get(id);
+
+         Mapper.Initialize(cfg => cfg.CreateMap<Person, PersonDto>());
+
+         PersonDto mappedPerson = Mapper.Map<PersonDto>(person);
+
+         return new GetPersonByIdOutput() { PersonDto = mappedPerson };
+      }
+
+      public void UpdatePerson(UpdatePersonInput input)
+      {
+         var person = _personRepository.Get((int)input.PersonId);
+
+         person.FirstName = input.FirstName;
+         person.LastName = input.LastName;
+         person.EmailAddress = input.EmailAddress;
+         person.Job = input.Job;
+         person.Gender = input.Gender;
+
+         Logger.Info("Updating a task for input: " + input);
       }
    }
 }

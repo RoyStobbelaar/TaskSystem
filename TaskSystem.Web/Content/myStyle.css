@@ -3,13 +3,65 @@
    color: white;
 }
 
-select{
-   color:black;
+select {
+   color: black;
 }
 
 .glypicon {
    pointer-events: all;
+   padding: 5px;
 }
+
+.icon {
+   padding: 5px;
+   margin: 5px;
+   font-size: 20px;
+   color: #2b2853;
+}
+
+.icon:hover {
+   text-decoration: none;
+   cursor: pointer;
+   color: #434068;
+}
+
+.personIcon {
+   color: #2b2853;
+   padding: 2px;
+   margin: 2px;
+   font-size: 16px;
+}
+
+.personIcon:hover {
+   text-decoration: none;
+   cursor: pointer;
+   color: #434068;
+}
+
+.panel-title{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+hr{
+     margin-top: 4px; 
+     margin-bottom: 8px; 
+     border: 0; 
+     border-top: 1px solid #686b75;
+}
+
+.form-control[readonly]{
+   background-color:inherit;
+   cursor:default;
+   border: 1px solid #3a3b40;
+   border-radius:10px;
+}
+
+.disabledTextarea{
+    background-color: inherit;
+    resize:none;
+}
+
 
 /*Navbar stuff*/
 
@@ -18,27 +70,27 @@ select{
    border: 1px solid #2d4e64;
 }
 
-   .navbar-inverse .navbar-nav > li > a {
-      color: #70edff;
-   }
+.navbar-inverse .navbar-nav > li > a {
+   color: #70edff;
+}
 
-   .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-      color: #d1fbff;
-      background-color: #2d4e64;
-   }
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+   color: #d1fbff;
+   background-color: #2d4e64;
+}
 
-   .navbar-inverse .navbar-nav > li > a:hover {
-      background-color: #506a7a;
-   }
+.navbar-inverse .navbar-nav > li > a:hover {
+   background-color: #506a7a;
+}
 
-   .navbar-inverse .navbar-nav > li > a:focus {
-      background-color: #1f1e2e;
-      color: #70edff;
-   }
+.navbar-inverse .navbar-nav > li > a:focus {
+   background-color: #1f1e2e;
+   color: #70edff;
+}
 
-   .navbar-inverse .navbar-brand {
-      color: #d1fbff;
-   }
+.navbar-inverse .navbar-brand {
+   color: #d1fbff;
+}
 
 /*Tasks*/
 
@@ -57,22 +109,21 @@ select{
    border: 1px solid black;
 }
 
-.person{
-      background-color: #70edff;
-         border: 1px solid black;
-
+.person {
+   background-color: #70edff;
+   border: 1px solid black;
 }
 
 .taskList {
    padding: 5px;
-   background-color: #545763;
-   color: ##1f1e2e;
+   background-color: #686b75;
+   color: #1f1e2e;
    /*border: 1px solid black;*/
-   border-bottom:1px solid black;
+   border-bottom: 1px solid black;
 }
 
-.cite{
-   font-style:italic;
+.cite {
+   font-style: italic;
 }
 
 .taskListHeading {
@@ -88,8 +139,8 @@ select{
 .panel-default > .panel-heading {
    background-color: #1f1e2e;
    /*border: 1px solid #2d4e64;*/
-   color:#70edff;
-   border-bottom:1px solid black;
+   color: #70edff;
+   border-bottom: 1px solid black;
 }
 
 .panel-heading + .list-group .list-group-item:first-child {

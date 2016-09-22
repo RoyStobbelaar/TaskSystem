@@ -24,7 +24,7 @@
              menu: 'TaskList'
           })
           .state('newTask', {
-             url: '/newtask',
+             url: '/newtask/:id',//Id is optional. no ID = new / id = edit
              templateUrl: '/App/Main/views/task/newtask.cshtml',
              menu: 'NewTask'
           })
@@ -34,7 +34,7 @@
               menu: 'Persons'
            })
            .state('newPerson', {
-              url: '/newperson',
+              url: '/newperson/:id',//Id is optional. no ID = new / id = edit
               templateUrl: '/App/Main/views/persons/newperson.cshtml',
               menu: 'NewPerson'
            });

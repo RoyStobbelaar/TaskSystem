@@ -1,10 +1,23 @@
 ﻿<div ng-controller="ts.views.persons.newperson as vm">
    <form id="NewPersonForm" role="form" name="newPersonForm" novalidate>
       <div class="form-group">
-         <label for="TaskDescription">@L("Add person")</label>
-         <input type="text" id="PersonName" ng-model="vm.person.name" class="form-control" rows="3" placeholder="@L(" EnterName")" required></input>
-         <label for="TaskDescription">@L("Add person")</label>
-         <input type="text" id="PersonJob" ng-model="vm.person.job" class="form-control" rows="3" placeholder="@L(" EnterJob")" required></input>
+         
+         <label for="TaskDescription">@L("Enter first name")</label>
+         <input type="text" id="PersonName" ng-model="vm.person.firstName" class="form-control" rows="3" placeholder="@L(" Enter first name")" required></input>
+         <label for="TaskDescription">@L("Enter last name")</label>
+         <input type="text" id="PersonJob" ng-model="vm.person.lastName" class="form-control" rows="3" placeholder="@L(" Enter last name")" required></input>
+
+         <label for="TaskDescription">@L("Enter e-mailadres")</label>
+         <input type="email" id="PersonName" ng-model="vm.person.emailAddress" class="form-control" rows="3" placeholder="@L(" Enter emailaddress")" required></input>
+         <label for="TaskDescription">@L("Add job")</label>
+         <input type="text" id="PersonJob" ng-model="vm.person.job" class="form-control" rows="3" placeholder="@L(" Enter job")" required></input>
+
+         <label for="TaskDescription">@L("Choose gender")</label><br />
+         <select ng-model="vm.person.gender" required>
+            <option value="Male" ng-selected="true">@L("Male")</option>
+            <option value="Female">@L("Female")</option>
+         </select>
+
       </div>
       <button ng-click="vm.savePerson()" ng-disabled="newPersonForm.$invalid" type="submit" class="btn btn-primary">@L("CreateNewPerson")</button>
    </form>

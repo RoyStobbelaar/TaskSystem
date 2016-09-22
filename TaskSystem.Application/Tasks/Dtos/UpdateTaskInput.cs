@@ -20,6 +20,10 @@ namespace TaskSystem.Tasks.Dtos
 
       public DateTime CompletionTime { get; set; }
 
+      public string Title { get; set; }
+
+      public string Description { get; set; }
+
       public void AddValidationErrors(List<ValidationResult> results)
       {
          if(AssignedPersonId == null && State == null)
@@ -30,7 +34,7 @@ namespace TaskSystem.Tasks.Dtos
 
       public override string ToString()
       {
-         return string.Format("[UpdateTaskInput > TaskId = {0}, AssignedPersonId = {1}, State = {2}]",TaskId,AssignedPersonId,State);
+         return string.Format("[UpdateTaskInput > TaskId = {0}, AssignedPersonId = {1}, State = {2}, Description = {3}]",TaskId,AssignedPersonId,State,Description);
       }
    }
 }

@@ -193,6 +193,14 @@
     <Compile Include="Migrations\201609210651572_Updated task model with completion date.Designer.cs">
       <DependentUpon>201609210651572_Updated task model with completion date.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201609220938090_Updated person model. Added 3 properties.cs" />
+    <Compile Include="Migrations\201609220938090_Updated person model. Added 3 properties.Designer.cs">
+      <DependentUpon>201609220938090_Updated person model. Added 3 properties.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201609221219019_Updated task model. Added Title.cs" />
+    <Compile Include="Migrations\201609221219019_Updated task model. Added Title.Designer.cs">
+      <DependentUpon>201609221219019_Updated task model. Added Title.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\AbpZeroDbMigrator.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Migrations\SeedData\TestDataCreator.cs" />
@@ -273,6 +281,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201609210651572_Updated task model with completion date.resx">
       <DependentUpon>201609210651572_Updated task model with completion date.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201609220938090_Updated person model. Added 3 properties.resx">
+      <DependentUpon>201609220938090_Updated person model. Added 3 properties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201609221219019_Updated task model. Added Title.resx">
+      <DependentUpon>201609221219019_Updated task model. Added Title.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

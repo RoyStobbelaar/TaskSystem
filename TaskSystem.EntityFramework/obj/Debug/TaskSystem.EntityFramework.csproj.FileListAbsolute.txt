@@ -64,3 +64,5 @@ D:\Projects\TaskSystem\TaskSystem.EntityFramework\obj\Debug\TaskSystem.Migration
 D:\Projects\TaskSystem\TaskSystem.EntityFramework\obj\Debug\TaskSystem.Migrations.Personmodeladdedjobattribute.resources
 D:\Projects\TaskSystem\TaskSystem.EntityFramework\obj\Debug\TaskSystem.Migrations.completionTimeonTask.resources
 D:\Projects\TaskSystem\TaskSystem.EntityFramework\obj\Debug\TaskSystem.Migrations.Updatedtaskmodelwithcompletiondate.resources
+D:\Projects\TaskSystem\TaskSystem.EntityFramework\obj\Debug\TaskSystem.Migrations.UpdatedpersonmodelAdded3properties.resources
+D:\Projects\TaskSystem\TaskSystem.EntityFramework\obj\Debug\TaskSystem.Migrations.UpdatedtaskmodelAddedTitle.resources

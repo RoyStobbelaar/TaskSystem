@@ -102,7 +102,9 @@
     <Compile Include="People\Dtos\CreatePersonInput.cs" />
     <Compile Include="People\Dtos\DeletePersonInput.cs" />
     <Compile Include="People\Dtos\GetAllPeopleOutput.cs" />
+    <Compile Include="People\Dtos\GetPersonByIdOutput.cs" />
     <Compile Include="People\Dtos\PersonDto.cs" />
+    <Compile Include="People\Dtos\UpdatePersonInput.cs" />
     <Compile Include="People\IPersonAppService.cs" />
     <Compile Include="People\PersonAppService.cs" />
     <Compile Include="TaskSystemApplicationModule.cs" />
@@ -116,6 +118,7 @@
     <Compile Include="Roles\Dto\UpdateRolePermissionsInput.cs" />
     <Compile Include="Tasks\Dtos\CreateTaskInput.cs" />
     <Compile Include="Tasks\Dtos\DeleteTaskInput.cs" />
+    <Compile Include="Tasks\Dtos\GetTaskByIdOutput.cs" />
     <Compile Include="Tasks\Dtos\GetTaskInput.cs" />
     <Compile Include="Tasks\Dtos\GetTaskOutput.cs" />
     <Compile Include="Tasks\Dtos\TaskDto.cs" />

@@ -11,6 +11,7 @@ namespace TaskSystem.Tasks
    public interface ITaskAppService : IApplicationService
    {
       GetTaskOutput GetTasks(GetTaskInput input);
+      GetTaskByIdOutput GetTask(int id);
       void UpdateTask(UpdateTaskInput input);
       void CreateTask(CreateTaskInput input);
       void DeleteTask(int id);

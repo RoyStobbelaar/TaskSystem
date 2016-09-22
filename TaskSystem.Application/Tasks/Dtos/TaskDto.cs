@@ -11,9 +11,17 @@ namespace TaskSystem.Tasks.Dtos
    {
       public int? AssignedPersonId { get; set; }
 
-      public string AssignedPersonName { get; set; }
+      public string AssignedPersonFirstName { get; set; }
+
+      public string AssignedPersonLastName { get; set; }
+
+      public string AssignedPersonEmailAddress { get; set; }
 
       public string AssignedPersonJob { get; set; }
+
+      public string AssignedPersonGender { get; set; }
+
+      public string Title { get; set; }
 
       public string Description { get; set; }
 
@@ -30,7 +38,6 @@ namespace TaskSystem.Tasks.Dtos
             Id,
             Description,
             Creationtime,
-            AssignedPersonName,
             AssignedPersonJob,
             (TaskState)State,
          CompletionTime);

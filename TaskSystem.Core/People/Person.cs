@@ -9,8 +9,15 @@ namespace TaskSystem.People
 {
    public class Person : Entity
    {
-      public virtual string Name { get; set; }
+      public virtual string FirstName { get; set; }
+
+      public virtual string LastName { get; set; }
+
+      public virtual string EmailAddress { get; set; }
 
       public virtual string Job { get; set; }
+
+      public virtual string Gender { get; set; }
+
    }
 }

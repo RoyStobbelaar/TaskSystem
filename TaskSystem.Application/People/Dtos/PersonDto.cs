@@ -11,7 +11,10 @@ namespace TaskSystem.People.Dtos
    [AutoMapFrom(typeof(Person))]
    public class PersonDto : EntityDto
    {
-      public string Name { get; set; }
+      public string FirstName { get; set; }
+      public string LastName { get; set; }
+      public string EmailAddress { get; set; }
       public string Job { get; set; }
+      public string Gender { get; set; }
    }
 }

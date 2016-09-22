@@ -17,9 +17,12 @@ namespace TaskSystem.Tasks.Dtos
       [Required]
       public string Description { get; set; }
 
+      [Required]
+      public string Title { get; set; }
+
       public override string ToString()
       {
-         return string.Format("[CreateTaskInput > AssignedPersonId = {0}, Description = {1}]", AssignedPersonId, Description);
+         return string.Format("[CreateTaskInput > AssignedPersonId = {0}, Description = {1}, Title = {2}]", AssignedPersonId, Description, Title);
       }
    }
 }

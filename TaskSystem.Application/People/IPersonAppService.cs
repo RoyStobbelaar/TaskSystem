@@ -13,5 +13,7 @@ namespace TaskSystem.People
       Task<GetAllPeopleOutput> GetAllPeople();
       void CreatePerson(CreatePersonInput input);
       void DeletePerson(int id);
+      GetPersonByIdOutput GetPersonById(int id);
+      void UpdatePerson(UpdatePersonInput input);
    }
 }

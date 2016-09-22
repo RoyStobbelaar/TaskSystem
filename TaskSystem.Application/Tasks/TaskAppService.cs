@@ -68,10 +68,20 @@ namespace TaskSystem.Tasks
             task.AssignedPerson = _personRepository.Load(input.AssignedPersonId.Value);
          }
 
+         if(input.Description != null)
+         {
+            task.Description = input.Description;
+         }
+
          //If task is completed and has not been completed before => add new completion date
          if (input.State == TaskState.Completed)
          {
             task.CompletionTime = DateTime.Now;
+         }
+
+         if(input.Title != null)
+         {
+            task.Title = input.Title;
          }
       }
 
@@ -80,7 +90,7 @@ namespace TaskSystem.Tasks
       {
          Logger.Info("Creating a task for input : " + input);
 
-         var task = new Task { Description = input.Description };
+         var task = new Task { Description = input.Description, Title = input.Title };
 
          if (input.AssignedPersonId.HasValue)
          {
@@ -93,6 +103,17 @@ namespace TaskSystem.Tasks
       public void DeleteTask(int id)
       {
          _taskRepository.Delete(id);
+      }
+
+      public GetTaskByIdOutput GetTask(int id)
+      {
+         var task = _taskRepository.Get(id);
+
+         Mapper.Initialize(cfg => cfg.CreateMap<Task, TaskDto>());
+
+         TaskDto mappedTask = Mapper.Map<TaskDto>(task);
+
+         return new GetTaskByIdOutput() { Task = mappedTask };
       }
    }
 }

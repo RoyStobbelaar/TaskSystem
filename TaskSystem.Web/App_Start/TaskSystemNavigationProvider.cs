@@ -26,7 +26,7 @@ namespace TaskSystem.Web
             new MenuItemDefinition(
                "NewTask",
                L("New Task"),
-               url: "#/newtask",
+               url: "#/newtask/",
                icon: "fa fa-plus"
                )
                ).AddItem(
@@ -40,7 +40,7 @@ namespace TaskSystem.Web
             new MenuItemDefinition(
                "NewPerson",
                L("New Person"),
-               url: "#/newperson",
+               url: "#/newperson/",
                icon: "fa fa-plus"
                )
              );

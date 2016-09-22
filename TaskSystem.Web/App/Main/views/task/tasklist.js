@@ -24,8 +24,6 @@
                 'Are you sure?',
                 function (isConfirmed) {
                    if (isConfirmed) {
-
-
                       abp.ui.setBusy(
                          null,
                          taskService.deleteTask(taskId).success(function () {
