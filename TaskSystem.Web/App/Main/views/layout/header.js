@@ -1,8 +1,8 @@
 ﻿(function () {
     var controllerId = 'app.views.layout.header';
     angular.module('app').controller(controllerId, [
-        '$rootScope', '$state', 'appSession',
-        function ($rootScope, $state, appSession) {
+        '$rootScope', '$state', 'appSession','Header',
+        function ($rootScope, $state, appSession,Header) {
             var vm = this;
 
             vm.languages = abp.localization.languages;
@@ -15,19 +15,10 @@
                 vm.currentMenuName = toState.menu;
             });
 
-            console.log(vm.menu);
-
-            //vm.getShownUserName = function () {
-            //    if (!abp.multiTenancy.isEnabled) {
-            //        return appSession.user.userName;
-            //    } else {
-            //        if (appSession.tenant) {
-            //            return appSession.tenant.tenancyName + '\\' + appSession.user.userName;
-            //        } else {
-            //            return '.\\' + appSession.user.userName;
-            //        }
-            //    }
-            //};
+           //Select or deselect admin mode
+            vm.changeAdmin = function () {
+               Header.switchHeader();
+            };
 
             abp.event.on('abp.notifications.received', function (userNotification) {
                 abp.notifications.showUiNotifyForUserNotification(userNotification);

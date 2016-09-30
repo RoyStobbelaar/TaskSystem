@@ -1,0 +1,27 @@
+﻿
+<div class="panel panel-default" ng-controller="admintasks as vm">
+
+   <h1>{{vm.title}}</h1>
+
+   <ul class="list-group taskList" ng-repeat="task in vm.tasks">
+      <div class="list-group-item" ng-class="{'active': task.state === 1, 'inprogress': task.state === 2 , 'complete':task.state === 3}">
+         <span class="task-state-icon glyphicon" ng-click="vm.changeTaskState(task)" ng-class="{'glyphicon-minus': task.state === 1, 'glyphicon-chevron-right': task.state === 2, 'glyphicon-ok': task.state === 3}"></span>
+         <span ng-class="{'task-description-active': task.state === 1, 'task-description-inprogess': task.state === 2, 'task-description-completed': task.state === 3 }" style="font-weight:bold;font-size:16px">{{task.title}}</span>
+         <a class="pull-right task-state-icon glyphicon glyphicon-remove icon" ng-click="vm.removeTask(task.id)"></a>
+         <a class="pull-right task-state-icon glyphicon glyphicon-pencil icon" ng-href="#newtask/{{task.id}}"></a>
+
+         <br />
+
+         <span ng-show="task.assignedPersonId > 0">
+            <span class="task-assignedto cite">
+               {{task.assignedPersonJob}}, {{task.assignedPersonFirstName}} {{task.assignedPersonLastName}} <span ng-show="task.state === 3">{{task.completionTime | date:'dd/MM/yyyy'}}</span>
+            </span>
+         </span>
+         <span class="task-creationtime">{{task.creationTime}}</span>
+         <hr />
+         <textarea class="form-control disabledTextarea" readonly>{{task.description}}</textarea>
+
+      </div>
+
+   </ul>
+</div>

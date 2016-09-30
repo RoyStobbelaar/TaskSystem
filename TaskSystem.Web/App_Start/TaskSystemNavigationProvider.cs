@@ -1,5 +1,6 @@
 ﻿using Abp.Application.Navigation;
 using Abp.Localization;
+using System.Collections.Generic;
 using TaskSystem.Authorization;
 
 namespace TaskSystem.Web
@@ -14,6 +15,53 @@ namespace TaskSystem.Web
    {
       public override void SetNavigation(INavigationProviderContext context)
       {
+         context.Manager.Menus.Add("AdminMenu", new MenuDefinition("AdminMenu", L("Admin Menu")));
+         context.Manager.Menus["AdminMenu"]
+            .AddItem(
+            new MenuItemDefinition(
+               "User",
+               L("User"),
+               url: "/User",
+               icon: "fa fa-user"
+               )
+               ).AddItem(
+            new MenuItemDefinition(
+               "Task",
+               L("Task"),
+               url: "/Task",
+               icon: "fa fa-tasks"
+               )
+               ).AddItem(
+            new MenuItemDefinition(
+               "Settings",
+               L("Settings"),
+               url: "/Settings",
+               icon: "fa fa-cog"
+               )
+               ).AddItem(
+            new MenuItemDefinition(
+               "Other",
+               L("Other"),
+               url: "/Other",
+               icon: "fa fa-asterisk"
+               )
+               ).AddItem(
+            new MenuItemDefinition(
+               "Cache",
+               L("Cache"),
+               url: "/Cache",
+               icon: "fa fa-trash"
+               )
+               ).AddItem(
+            new MenuItemDefinition(
+               "Game",
+               L("Game"),
+               url: "/Game",
+               icon: "fa fa-play-circle"
+               )
+            );
+
+
          context.Manager.MainMenu
              .AddItem(
             new MenuItemDefinition(
@@ -44,7 +92,6 @@ namespace TaskSystem.Web
                icon: "fa fa-plus"
                )
              );
-
       }
 
       private static ILocalizableString L(string name)

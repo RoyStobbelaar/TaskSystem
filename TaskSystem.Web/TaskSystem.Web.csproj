@@ -301,6 +301,19 @@
     <Content Include="Abp\Framework\styles\abp.mixings.css" />
     <Content Include="Abp\Framework\styles\abp.mixings.min.css" />
     <Content Include="Abp\Framework\styles\utils\ie10fix.css" />
+    <None Include="App\Main\admin\views\adminindex.cshtml" />
+    <Content Include="App\Main\admin\views\cache\cache.js" />
+    <Content Include="App\Main\admin\views\defaultAdmin.cshtml" />
+    <Content Include="App\Main\admin\views\game\game.cshtml" />
+    <Content Include="App\Main\admin\views\cache\cache.cshtml" />
+    <None Include="App\Main\admin\views\header\header.cshtml" />
+    <Content Include="App\Main\admin\views\adminindex.js" />
+    <Content Include="App\Main\admin\views\game\game.js" />
+    <Content Include="App\Main\admin\views\header\header.js" />
+    <None Include="App\Main\admin\views\settings\settings.cshtml" />
+    <Content Include="App\Main\admin\views\settings\settings.js" />
+    <Content Include="App\Main\admin\views\tasks\tasks.js" />
+    <Content Include="App\Main\admin\views\users\users.js" />
     <Content Include="App\Main\app.js" />
     <Content Include="App\Main\images\abp-logo.png" />
     <Content Include="App\Main\main.css">
@@ -316,6 +329,9 @@
     <Content Include="App\Main\views\layout\layout.js" />
     <Content Include="App\Main\views\home\home.js" />
     <Content Include="App\Main\views\about\about.js" />
+    <Content Include="App\Main\admin\views\users\users.cshtml" />
+    <Content Include="App\Main\admin\views\tasks\tasks.cshtml" />
+    <Content Include="App\Main\admin\views\other\other.cshtml" />
     <None Include="App\Main\views\task\tasklist.cshtml" />
     <None Include="App\Main\views\task\newtask.cshtml" />
     <None Include="App\Main\views\persons\persons.cshtml" />
@@ -1250,6 +1266,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\TaskSystemAdminModuleProvider.cs" />
     <Compile Include="App_Start\TaskSystemNavigationProvider.cs" />
     <Compile Include="App_Start\TaskSystemWebModule.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
@@ -1294,6 +1311,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="App\Main\admin\views\menu\" />
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>

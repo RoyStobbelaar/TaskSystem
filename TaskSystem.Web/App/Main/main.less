@@ -7,6 +7,47 @@ body {
 /* Styles for angular ui transition animations */
 
 .angular-animation-container {
+    /*position: relative;
+    width:inherit;*/
+}
+
+.shuffle-animation.ng-enter,
+.shuffle-animation.ng-leave {
+    /*position: absolute;
+        width:inherit;*/
+
+}
+
+.shuffle-animation.ng-enter {
+    -moz-transition: linear;
+    -o-transition: linear;
+    -webkit-transition: linear;
+    transition: linear;
+    right: 2em;
+    opacity: 0;
+
+    /*&.ng-enter-active {
+        right: 0;
+        opacity: 1;
+    }*/
+}
+
+.shuffle-animation.ng-leave {
+    /*-moz-transition: 0.3s ease-out all;
+    -o-transition: 0.3s ease-out all;
+    -webkit-transition: 0.3s ease-out all;
+    transition: 0.3s ease-out all;
+    right: 0;
+    opacity: 1;
+
+    &.ng-leave-active {
+        right: 2em;
+        opacity: 0;
+    }*/
+}
+
+
+/*.angular-animation-container {
     position: relative;
 }
 
@@ -41,4 +82,4 @@ body {
         left: 2em;
         opacity: 0;
     }
-}
+}*/

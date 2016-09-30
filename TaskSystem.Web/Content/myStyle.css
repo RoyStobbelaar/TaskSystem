@@ -19,11 +19,11 @@ select {
    color: #2b2853;
 }
 
-.icon:hover {
-   text-decoration: none;
-   cursor: pointer;
-   color: #434068;
-}
+   .icon:hover {
+      text-decoration: none;
+      cursor: pointer;
+      color: #434068;
+   }
 
 .personIcon {
    color: #2b2853;
@@ -32,34 +32,34 @@ select {
    font-size: 16px;
 }
 
-.personIcon:hover {
-   text-decoration: none;
-   cursor: pointer;
-   color: #434068;
+   .personIcon:hover {
+      text-decoration: none;
+      cursor: pointer;
+      color: #434068;
+   }
+
+.panel-title {
+   font-size: 20px;
+   font-weight: bolder;
 }
 
-.panel-title{
-    font-size: 20px;
-    font-weight: bolder;
+hr {
+   margin-top: 4px;
+   margin-bottom: 8px;
+   border: 0;
+   border-top: 1px solid #686b75;
 }
 
-hr{
-     margin-top: 4px; 
-     margin-bottom: 8px; 
-     border: 0; 
-     border-top: 1px solid #686b75;
-}
-
-.form-control[readonly]{
-   background-color:inherit;
-   cursor:default;
+.form-control[readonly] {
+   background-color: inherit;
+   cursor: default;
    border: 1px solid #3a3b40;
-   border-radius:10px;
+   border-radius: 10px;
 }
 
-.disabledTextarea{
-    background-color: inherit;
-    resize:none;
+.disabledTextarea {
+   background-color: inherit;
+   resize: none;
 }
 
 
@@ -70,27 +70,27 @@ hr{
    border: 1px solid #2d4e64;
 }
 
-.navbar-inverse .navbar-nav > li > a {
-   color: #70edff;
-}
+   .navbar-inverse .navbar-nav > li > a {
+      color: #70edff;
+   }
 
-.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-   color: #d1fbff;
-   background-color: #2d4e64;
-}
+   .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+      color: #d1fbff;
+      background-color: #2d4e64;
+   }
 
-.navbar-inverse .navbar-nav > li > a:hover {
-   background-color: #506a7a;
-}
+   .navbar-inverse .navbar-nav > li > a:hover {
+      background-color: #506a7a;
+   }
 
-.navbar-inverse .navbar-nav > li > a:focus {
-   background-color: #1f1e2e;
-   color: #70edff;
-}
+   .navbar-inverse .navbar-nav > li > a:focus {
+      background-color: #1f1e2e;
+      color: #70edff;
+   }
 
-.navbar-inverse .navbar-brand {
-   color: #d1fbff;
-}
+   .navbar-inverse .navbar-brand {
+      color: #d1fbff;
+   }
 
 /*Tasks*/
 
@@ -161,4 +161,103 @@ hr{
 .list-group-item:first-child {
    border-top-right-radius: 1px;
    border-top-left-radius: 1px;
+}
+
+/*Admin stuff*/
+
+.adminMenu {
+   border: 1px solid #555555;
+   height: 80%;
+   display: inline-block;
+   padding-left: 0px;
+   padding-right: 0px;
+   background-color: #262835;
+   margin-top:5px;
+}
+
+.adminMenuItem {
+   height: 40px;
+   background-color: #373946;
+   text-decoration: none;
+   padding: 2px;
+   margin: 8px;
+   text-align: center;
+   vertical-align: middle;
+   color: white;
+}
+
+.adminMenuItem > a {
+   color: #70edff;
+   text-decoration: none;
+}
+
+.adminMenuItem:hover {
+   background-color: #484a57;
+   color: #d1fbff;
+   text-decoration: none;
+      
+}
+
+.adminMenuItem:hover > a {
+   text-decoration: none;
+}
+
+.adminIcon > a {
+   color: #d1fbff;
+   text-decoration: none;
+}
+
+   .adminIcon > a:hover {
+      text-decoration: none;
+      color: #d1fbff;
+   }
+
+   .adminContent{
+      background-color:#262835;
+      padding:5px;
+      margin:5px;
+      border:1px solid #555555;
+   }
+
+ .adminDashboardItem{
+    border:1px solid black;
+    padding:4px;
+    margin:4px;
+    width:30%;
+    height:100px;
+    display:inline-block;
+    vertical-align:central;
+    text-align:center;
+          background-color:#373946;
+ }
+
+.adminDashboardItem:hover{
+      text-decoration: none;
+      color: #d1fbff;
+      background-color:#484a57;
+ }
+
+.adminDashboardItem:hover > a{
+      text-decoration: none;
+ }
+
+.adminDashboardItem > .adminIcon{
+      font-size:46px;
+      display:block;
+      margin-top:10px;
+   }
+
+.dashboardLink{
+   color:inherit;
+}
+
+/*Game zo scherp, kan je met je verstand niet bij*/
+
+.gamecanvas{
+   width:760px;
+   height:600px;
+   border:1px solid white;
+   padding:5px;
+   margin:5px;
+   background-color:black;
 }

@@ -98,7 +98,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cache\CacheAppService.cs" />
+    <Compile Include="Cache\ICacheAppService.cs" />
     <Compile Include="DtoMappings.cs" />
+    <Compile Include="Module\Dto\GetModuleOutput.cs" />
+    <Compile Include="Module\Dto\ModuleDto.cs" />
+    <Compile Include="Module\IModuleAppService.cs" />
+    <Compile Include="Module\ModuleAppService.cs" />
     <Compile Include="People\Dtos\CreatePersonInput.cs" />
     <Compile Include="People\Dtos\DeletePersonInput.cs" />
     <Compile Include="People\Dtos\GetAllPeopleOutput.cs" />
@@ -149,7 +155,9 @@
       <Name>TaskSystem.Core</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Cache\Dto\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

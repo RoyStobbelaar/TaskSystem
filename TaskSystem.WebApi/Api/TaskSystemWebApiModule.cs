@@ -18,8 +18,8 @@ namespace TaskSystem.Api
             DynamicApiControllerBuilder
                 .ForAll<IApplicationService>(typeof(TaskSystemApplicationModule).Assembly, "app")
                 .Build();
-
-            Configuration.Modules.AbpWebApi().HttpConfiguration.Filters.Add(new HostAuthenticationFilter("Bearer"));
         }
     }
 }
+
+//Configuration.Modules.AbpWebApi().HttpConfiguration.Filters.Add(new HostAuthenticationFilter("Bearer"));
