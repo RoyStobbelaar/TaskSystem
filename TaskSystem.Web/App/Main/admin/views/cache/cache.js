@@ -8,14 +8,13 @@
        '$scope', 'abp.services.app.cache', function ($scope, cacheService) {
           var vm = this;
 
-         // vm.localize = abp.localization.getSource('TaskSystem');
+         vm.localize = abp.localization.getSource('TaskSystem');
 
           console.log(cacheService);
 
           vm.ClearCache = function () {
              cacheService.clearCache().success(function () {
-                //abp.notify.info(abp.utils.formatString(localize("Cache Cleared"), "Your cache has been cleared."));
-
+                abp.notify.info(abp.utils.formatString(localize("Cache Cleared"), "Your cache has been cleared."));
              });
           };
 

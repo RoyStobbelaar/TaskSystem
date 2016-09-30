@@ -80,6 +80,7 @@ hr {
    }
 
    .navbar-inverse .navbar-nav > li > a:hover {
+      transition: linear all 0.5s;
       background-color: #506a7a;
    }
 
@@ -192,10 +193,11 @@ hr {
 }
 
 .adminMenuItem:hover {
-   background-color: #484a57;
+   background-color: #595b68;
    color: #d1fbff;
    text-decoration: none;
-      
+               transform: scale(1.05);
+      transition: linear all 0.5s;
 }
 
 .adminMenuItem:hover > a {
@@ -233,8 +235,10 @@ hr {
 
 .adminDashboardItem:hover{
       text-decoration: none;
-      color: #d1fbff;
-      background-color:#484a57;
+      color: #f3fdff;
+      background-color:#6a6c79;
+      transform: scale(1.05);
+      transition: linear all 0.5s;
  }
 
 .adminDashboardItem:hover > a{

@@ -25202,3 +25202,214 @@ WARN  2016-09-30 15:45:31,859 [50   ] Abp.Logging.LogHelper                    -
 WARN  2016-09-30 15:45:31,860 [50   ] Abp.Logging.LogHelper                    - Can not find 'Male' in localization source 'TaskSystem'!
 WARN  2016-09-30 15:45:31,860 [50   ] Abp.Logging.LogHelper                    - Can not find 'Female' in localization source 'TaskSystem'!
 WARN  2016-09-30 15:45:31,861 [50   ] Abp.Logging.LogHelper                    - Can not find 'CreateNewPerson' in localization source 'TaskSystem'!
+DEBUG 2016-09-30 15:52:48,272 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-09-30 15:52:48,706 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2016-09-30 15:52:48,711 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TaskSystem.Web.TaskSystemWebModule, TaskSystem.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-30 15:52:48,712 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TaskSystem.TaskSystemDataModule, TaskSystem.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-30 15:52:48,713 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.11.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-30 15:52:48,713 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.11.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-30 15:52:48,713 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.11.0.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-30 15:52:48,714 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.11.0.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-30 15:52:48,714 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TaskSystem.TaskSystemCoreModule, TaskSystem.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-30 15:52:48,714 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TaskSystem.TaskSystemApplicationModule, TaskSystem.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-30 15:52:48,714 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.11.0.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-30 15:52:48,714 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TaskSystem.Api.TaskSystemWebApiModule, TaskSystem.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-30 15:52:48,714 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.11.0.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-30 15:52:48,715 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.11.0.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-30 15:52:48,715 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=0.11.0.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-30 15:52:48,715 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=0.11.0.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-30 15:52:48,715 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.11.0.2, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-30 15:52:48,717 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2016-09-30 15:52:49,384 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-09-30 15:52:49,384 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-09-30 15:52:49,384 [1    ] o.Configuration.LanguageManagementConfig - Converted TaskSystem (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-09-30 15:52:49,384 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-09-30 15:52:49,846 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: TaskSystem.EntityFramework.TaskSystemDbContext, TaskSystem.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-09-30 15:52:50,765 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2016-09-30 15:52:50,772 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-09-30 15:52:50,784 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2016-09-30 15:52:50,786 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: TaskSystem
+DEBUG 2016-09-30 15:52:50,786 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-09-30 15:52:50,875 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-09-30 15:52:50,893 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes defines auto mapping attributes
+DEBUG 2016-09-30 15:52:50,893 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaskSystem.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2016-09-30 15:52:50,895 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaskSystem.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2016-09-30 15:52:50,895 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaskSystem.Sessions.Dto.UserLoginInfoDto
+DEBUG 2016-09-30 15:52:50,895 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaskSystem.Users.Dto.CreateUserInput
+DEBUG 2016-09-30 15:52:50,895 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaskSystem.Users.Dto.UserListDto
+DEBUG 2016-09-30 15:52:50,895 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaskSystem.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2016-09-30 15:52:50,896 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaskSystem.MultiTenancy.Dto.TenantListDto
+DEBUG 2016-09-30 15:52:50,896 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaskSystem.People.Dtos.PersonDto
+DEBUG 2016-09-30 15:52:52,307 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaskSystem.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2016-09-30 15:52:52,308 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaskSystem.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2016-09-30 15:52:52,309 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaskSystem.Tasks.ITaskAppService' with service name 'app/task'.
+DEBUG 2016-09-30 15:52:52,310 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaskSystem.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2016-09-30 15:52:52,312 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaskSystem.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2016-09-30 15:52:52,313 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaskSystem.People.IPersonAppService' with service name 'app/person'.
+DEBUG 2016-09-30 15:52:52,314 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaskSystem.Module.IModuleAppService' with service name 'app/module'.
+DEBUG 2016-09-30 15:52:52,315 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaskSystem.Cache.ICacheAppService' with service name 'app/cache'.
+DEBUG 2016-09-30 15:52:54,652 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"c4891c23-a4e5-4ef9-905c-f9f7ac063bbf","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-09-30T15:52:54.6357918+02:00","Properties":{}}
+WARN  2016-09-30 15:52:58,965 [9    ] Abp.Logging.LogHelper                    - Can not find 'Task List' in localization source 'TaskSystem'!
+WARN  2016-09-30 15:52:58,966 [9    ] Abp.Logging.LogHelper                    - Can not find 'New Task' in localization source 'TaskSystem'!
+WARN  2016-09-30 15:52:58,966 [9    ] Abp.Logging.LogHelper                    - Can not find 'Person List' in localization source 'TaskSystem'!
+WARN  2016-09-30 15:52:58,967 [9    ] Abp.Logging.LogHelper                    - Can not find 'New Person' in localization source 'TaskSystem'!
+WARN  2016-09-30 15:52:58,968 [9    ] Abp.Logging.LogHelper                    - Can not find 'Admin Menu' in localization source 'TaskSystem'!
+WARN  2016-09-30 15:52:58,969 [9    ] Abp.Logging.LogHelper                    - Can not find 'User' in localization source 'TaskSystem'!
+WARN  2016-09-30 15:52:58,969 [9    ] Abp.Logging.LogHelper                    - Can not find 'Task' in localization source 'TaskSystem'!
+WARN  2016-09-30 15:52:58,970 [9    ] Abp.Logging.LogHelper                    - Can not find 'Settings' in localization source 'TaskSystem'!
+WARN  2016-09-30 15:52:58,971 [9    ] Abp.Logging.LogHelper                    - Can not find 'Other' in localization source 'TaskSystem'!
+WARN  2016-09-30 15:52:58,971 [9    ] Abp.Logging.LogHelper                    - Can not find 'Cache' in localization source 'TaskSystem'!
+WARN  2016-09-30 15:52:58,972 [9    ] Abp.Logging.LogHelper                    - Can not find 'Game' in localization source 'TaskSystem'!
+DEBUG 2016-09-30 15:52:59,396 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"79bedf84-aae9-4947-9aec-416e24d80bd6","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-09-30T15:52:59.3960894+02:00","Properties":{}}
+DEBUG 2016-09-30 15:52:59,478 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 79bedf84-aae9-4947-9aec-416e24d80bd6
+WARN  2016-09-30 15:52:59,683 [8    ] Abp.Logging.LogHelper                    - Can not find 'TaskList' in localization source 'TaskSystem'!
+WARN  2016-09-30 15:52:59,684 [8    ] Abp.Logging.LogHelper                    - Can not find 'AllTasks' in localization source 'TaskSystem'!
+WARN  2016-09-30 15:52:59,685 [8    ] Abp.Logging.LogHelper                    - Can not find 'TodoTasks' in localization source 'TaskSystem'!
+WARN  2016-09-30 15:52:59,685 [8    ] Abp.Logging.LogHelper                    - Can not find 'InProgressTasks' in localization source 'TaskSystem'!
+WARN  2016-09-30 15:52:59,686 [8    ] Abp.Logging.LogHelper                    - Can not find 'CompletedTasks' in localization source 'TaskSystem'!
+WARN  2016-09-30 15:54:38,803 [15   ] Abp.Logging.LogHelper                    - Can not find 'Persons' in localization source 'TaskSystem'!
+DEBUG 2016-09-30 15:59:29,543 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 79bedf84-aae9-4947-9aec-416e24d80bd6
+WARN  2016-09-30 15:59:30,125 [29   ] Abp.Logging.LogHelper                    - Can not find 'Task List' in localization source 'TaskSystem'!
+WARN  2016-09-30 15:59:30,126 [29   ] Abp.Logging.LogHelper                    - Can not find 'New Task' in localization source 'TaskSystem'!
+WARN  2016-09-30 15:59:30,127 [29   ] Abp.Logging.LogHelper                    - Can not find 'Person List' in localization source 'TaskSystem'!
+WARN  2016-09-30 15:59:30,127 [29   ] Abp.Logging.LogHelper                    - Can not find 'New Person' in localization source 'TaskSystem'!
+WARN  2016-09-30 15:59:30,133 [29   ] Abp.Logging.LogHelper                    - Can not find 'Admin Menu' in localization source 'TaskSystem'!
+WARN  2016-09-30 15:59:30,134 [29   ] Abp.Logging.LogHelper                    - Can not find 'User' in localization source 'TaskSystem'!
+WARN  2016-09-30 15:59:30,135 [29   ] Abp.Logging.LogHelper                    - Can not find 'Task' in localization source 'TaskSystem'!
+WARN  2016-09-30 15:59:30,136 [29   ] Abp.Logging.LogHelper                    - Can not find 'Settings' in localization source 'TaskSystem'!
+WARN  2016-09-30 15:59:30,137 [29   ] Abp.Logging.LogHelper                    - Can not find 'Other' in localization source 'TaskSystem'!
+WARN  2016-09-30 15:59:30,138 [29   ] Abp.Logging.LogHelper                    - Can not find 'Cache' in localization source 'TaskSystem'!
+WARN  2016-09-30 15:59:30,138 [29   ] Abp.Logging.LogHelper                    - Can not find 'Game' in localization source 'TaskSystem'!
+DEBUG 2016-09-30 15:59:30,624 [29   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"3dde8930-c5a4-476a-b4c7-af76ee7c6555","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-09-30T15:59:30.6245725+02:00","Properties":{}}
+DEBUG 2016-09-30 15:59:30,632 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 3dde8930-c5a4-476a-b4c7-af76ee7c6555
+DEBUG 2016-09-30 16:01:29,755 [43   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 3dde8930-c5a4-476a-b4c7-af76ee7c6555
+WARN  2016-09-30 16:01:30,338 [45   ] Abp.Logging.LogHelper                    - Can not find 'Task List' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:01:30,338 [45   ] Abp.Logging.LogHelper                    - Can not find 'New Task' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:01:30,339 [45   ] Abp.Logging.LogHelper                    - Can not find 'Person List' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:01:30,339 [45   ] Abp.Logging.LogHelper                    - Can not find 'New Person' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:01:30,340 [45   ] Abp.Logging.LogHelper                    - Can not find 'Admin Menu' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:01:30,341 [45   ] Abp.Logging.LogHelper                    - Can not find 'User' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:01:30,342 [45   ] Abp.Logging.LogHelper                    - Can not find 'Task' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:01:30,343 [45   ] Abp.Logging.LogHelper                    - Can not find 'Settings' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:01:30,343 [45   ] Abp.Logging.LogHelper                    - Can not find 'Other' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:01:30,344 [45   ] Abp.Logging.LogHelper                    - Can not find 'Cache' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:01:30,345 [45   ] Abp.Logging.LogHelper                    - Can not find 'Game' in localization source 'TaskSystem'!
+DEBUG 2016-09-30 16:01:30,737 [32   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"42583397-9675-4a9d-8fae-bf58e4a39181","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-09-30T16:01:30.736089+02:00","Properties":{}}
+DEBUG 2016-09-30 16:01:30,754 [44   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 42583397-9675-4a9d-8fae-bf58e4a39181
+DEBUG 2016-09-30 16:02:13,282 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 42583397-9675-4a9d-8fae-bf58e4a39181
+WARN  2016-09-30 16:02:13,786 [33   ] Abp.Logging.LogHelper                    - Can not find 'Task List' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:02:13,787 [33   ] Abp.Logging.LogHelper                    - Can not find 'New Task' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:02:13,788 [33   ] Abp.Logging.LogHelper                    - Can not find 'Person List' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:02:13,788 [33   ] Abp.Logging.LogHelper                    - Can not find 'New Person' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:02:13,789 [33   ] Abp.Logging.LogHelper                    - Can not find 'Admin Menu' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:02:13,790 [33   ] Abp.Logging.LogHelper                    - Can not find 'User' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:02:13,791 [33   ] Abp.Logging.LogHelper                    - Can not find 'Task' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:02:13,794 [33   ] Abp.Logging.LogHelper                    - Can not find 'Settings' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:02:13,794 [33   ] Abp.Logging.LogHelper                    - Can not find 'Other' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:02:13,795 [33   ] Abp.Logging.LogHelper                    - Can not find 'Cache' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:02:13,799 [33   ] Abp.Logging.LogHelper                    - Can not find 'Game' in localization source 'TaskSystem'!
+DEBUG 2016-09-30 16:02:14,228 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"4a985cc3-5482-43c8-8325-157b72a0a8ce","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-09-30T16:02:14.2288107+02:00","Properties":{}}
+DEBUG 2016-09-30 16:02:14,233 [50   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 4a985cc3-5482-43c8-8325-157b72a0a8ce
+DEBUG 2016-09-30 16:06:20,034 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 4a985cc3-5482-43c8-8325-157b72a0a8ce
+WARN  2016-09-30 16:06:20,562 [7    ] Abp.Logging.LogHelper                    - Can not find 'Task List' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:06:20,562 [7    ] Abp.Logging.LogHelper                    - Can not find 'New Task' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:06:20,563 [7    ] Abp.Logging.LogHelper                    - Can not find 'Person List' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:06:20,564 [7    ] Abp.Logging.LogHelper                    - Can not find 'New Person' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:06:20,564 [7    ] Abp.Logging.LogHelper                    - Can not find 'Admin Menu' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:06:20,565 [7    ] Abp.Logging.LogHelper                    - Can not find 'User' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:06:20,566 [7    ] Abp.Logging.LogHelper                    - Can not find 'Task' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:06:20,567 [7    ] Abp.Logging.LogHelper                    - Can not find 'Settings' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:06:20,570 [7    ] Abp.Logging.LogHelper                    - Can not find 'Other' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:06:20,572 [7    ] Abp.Logging.LogHelper                    - Can not find 'Cache' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:06:20,573 [7    ] Abp.Logging.LogHelper                    - Can not find 'Game' in localization source 'TaskSystem'!
+DEBUG 2016-09-30 16:06:21,034 [26   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"4dba9b82-d05e-475f-895b-488d5796c21d","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-09-30T16:06:21.033272+02:00","Properties":{}}
+DEBUG 2016-09-30 16:06:21,051 [26   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 4dba9b82-d05e-475f-895b-488d5796c21d
+WARN  2016-09-30 16:06:23,939 [19   ] Abp.Logging.LogHelper                    - Can not find 'TaskList' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:06:23,940 [19   ] Abp.Logging.LogHelper                    - Can not find 'AllTasks' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:06:23,940 [19   ] Abp.Logging.LogHelper                    - Can not find 'TodoTasks' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:06:23,941 [19   ] Abp.Logging.LogHelper                    - Can not find 'InProgressTasks' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:06:23,942 [19   ] Abp.Logging.LogHelper                    - Can not find 'CompletedTasks' in localization source 'TaskSystem'!
+DEBUG 2016-09-30 16:06:35,221 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 4dba9b82-d05e-475f-895b-488d5796c21d
+WARN  2016-09-30 16:06:35,760 [31   ] Abp.Logging.LogHelper                    - Can not find 'Task List' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:06:35,763 [31   ] Abp.Logging.LogHelper                    - Can not find 'New Task' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:06:35,764 [31   ] Abp.Logging.LogHelper                    - Can not find 'Person List' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:06:35,765 [31   ] Abp.Logging.LogHelper                    - Can not find 'New Person' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:06:35,766 [31   ] Abp.Logging.LogHelper                    - Can not find 'Admin Menu' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:06:35,767 [31   ] Abp.Logging.LogHelper                    - Can not find 'User' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:06:35,768 [31   ] Abp.Logging.LogHelper                    - Can not find 'Task' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:06:35,769 [31   ] Abp.Logging.LogHelper                    - Can not find 'Settings' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:06:35,769 [31   ] Abp.Logging.LogHelper                    - Can not find 'Other' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:06:35,770 [31   ] Abp.Logging.LogHelper                    - Can not find 'Cache' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:06:35,770 [31   ] Abp.Logging.LogHelper                    - Can not find 'Game' in localization source 'TaskSystem'!
+DEBUG 2016-09-30 16:06:36,056 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"5f3bcc9e-4045-464f-825b-a03ef2e1ced3","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-09-30T16:06:36.055212+02:00","Properties":{}}
+DEBUG 2016-09-30 16:06:36,086 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 5f3bcc9e-4045-464f-825b-a03ef2e1ced3
+DEBUG 2016-09-30 16:09:39,899 [19   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 5f3bcc9e-4045-464f-825b-a03ef2e1ced3
+WARN  2016-09-30 16:09:40,468 [69   ] Abp.Logging.LogHelper                    - Can not find 'Task List' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:09:40,469 [69   ] Abp.Logging.LogHelper                    - Can not find 'New Task' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:09:40,474 [69   ] Abp.Logging.LogHelper                    - Can not find 'Person List' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:09:40,483 [69   ] Abp.Logging.LogHelper                    - Can not find 'New Person' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:09:40,485 [69   ] Abp.Logging.LogHelper                    - Can not find 'Admin Menu' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:09:40,486 [69   ] Abp.Logging.LogHelper                    - Can not find 'User' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:09:40,490 [69   ] Abp.Logging.LogHelper                    - Can not find 'Task' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:09:40,491 [69   ] Abp.Logging.LogHelper                    - Can not find 'Settings' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:09:40,492 [69   ] Abp.Logging.LogHelper                    - Can not find 'Other' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:09:40,492 [69   ] Abp.Logging.LogHelper                    - Can not find 'Cache' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:09:40,493 [69   ] Abp.Logging.LogHelper                    - Can not find 'Game' in localization source 'TaskSystem'!
+DEBUG 2016-09-30 16:09:40,928 [19   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"eb4b9e6f-48f2-4103-8c5d-46ae407d5bc8","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-09-30T16:09:40.9277815+02:00","Properties":{}}
+DEBUG 2016-09-30 16:09:40,932 [85   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: eb4b9e6f-48f2-4103-8c5d-46ae407d5bc8
+DEBUG 2016-09-30 16:10:32,787 [19   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: eb4b9e6f-48f2-4103-8c5d-46ae407d5bc8
+WARN  2016-09-30 16:10:33,472 [91   ] Abp.Logging.LogHelper                    - Can not find 'Task List' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:10:33,472 [91   ] Abp.Logging.LogHelper                    - Can not find 'New Task' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:10:33,473 [91   ] Abp.Logging.LogHelper                    - Can not find 'Person List' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:10:33,474 [91   ] Abp.Logging.LogHelper                    - Can not find 'New Person' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:10:33,474 [91   ] Abp.Logging.LogHelper                    - Can not find 'Admin Menu' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:10:33,475 [91   ] Abp.Logging.LogHelper                    - Can not find 'User' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:10:33,476 [91   ] Abp.Logging.LogHelper                    - Can not find 'Task' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:10:33,477 [91   ] Abp.Logging.LogHelper                    - Can not find 'Settings' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:10:33,477 [91   ] Abp.Logging.LogHelper                    - Can not find 'Other' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:10:33,478 [91   ] Abp.Logging.LogHelper                    - Can not find 'Cache' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:10:33,479 [91   ] Abp.Logging.LogHelper                    - Can not find 'Game' in localization source 'TaskSystem'!
+DEBUG 2016-09-30 16:10:33,917 [19   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"d55e9607-2b3d-4b98-a8a7-3dcfbb9d2c7c","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-09-30T16:10:33.916097+02:00","Properties":{}}
+DEBUG 2016-09-30 16:10:33,922 [85   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: d55e9607-2b3d-4b98-a8a7-3dcfbb9d2c7c
+DEBUG 2016-09-30 16:10:45,017 [19   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: d55e9607-2b3d-4b98-a8a7-3dcfbb9d2c7c
+WARN  2016-09-30 16:10:45,628 [7    ] Abp.Logging.LogHelper                    - Can not find 'Task List' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:10:45,629 [7    ] Abp.Logging.LogHelper                    - Can not find 'New Task' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:10:45,630 [7    ] Abp.Logging.LogHelper                    - Can not find 'Person List' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:10:45,630 [7    ] Abp.Logging.LogHelper                    - Can not find 'New Person' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:10:45,631 [7    ] Abp.Logging.LogHelper                    - Can not find 'Admin Menu' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:10:45,633 [7    ] Abp.Logging.LogHelper                    - Can not find 'User' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:10:45,637 [7    ] Abp.Logging.LogHelper                    - Can not find 'Task' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:10:45,667 [7    ] Abp.Logging.LogHelper                    - Can not find 'Settings' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:10:45,673 [7    ] Abp.Logging.LogHelper                    - Can not find 'Other' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:10:45,674 [7    ] Abp.Logging.LogHelper                    - Can not find 'Cache' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:10:45,675 [7    ] Abp.Logging.LogHelper                    - Can not find 'Game' in localization source 'TaskSystem'!
+DEBUG 2016-09-30 16:10:45,883 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"1756bb57-6191-4276-9570-ade89c2e0007","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-09-30T16:10:45.8838456+02:00","Properties":{}}
+DEBUG 2016-09-30 16:10:45,886 [89   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 1756bb57-6191-4276-9570-ade89c2e0007
+DEBUG 2016-09-30 16:10:55,410 [19   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 1756bb57-6191-4276-9570-ade89c2e0007
+WARN  2016-09-30 16:10:55,960 [84   ] Abp.Logging.LogHelper                    - Can not find 'Task List' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:10:55,961 [84   ] Abp.Logging.LogHelper                    - Can not find 'New Task' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:10:55,963 [84   ] Abp.Logging.LogHelper                    - Can not find 'Person List' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:10:55,963 [84   ] Abp.Logging.LogHelper                    - Can not find 'New Person' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:10:55,964 [84   ] Abp.Logging.LogHelper                    - Can not find 'Admin Menu' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:10:55,966 [84   ] Abp.Logging.LogHelper                    - Can not find 'User' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:10:55,966 [84   ] Abp.Logging.LogHelper                    - Can not find 'Task' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:10:55,967 [84   ] Abp.Logging.LogHelper                    - Can not find 'Settings' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:10:55,968 [84   ] Abp.Logging.LogHelper                    - Can not find 'Other' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:10:55,969 [84   ] Abp.Logging.LogHelper                    - Can not find 'Cache' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:10:55,969 [84   ] Abp.Logging.LogHelper                    - Can not find 'Game' in localization source 'TaskSystem'!
+DEBUG 2016-09-30 16:10:56,335 [19   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"0be74fd5-ff1f-4de4-8b1d-c9faf098da4b","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-09-30T16:10:56.3344996+02:00","Properties":{}}
+DEBUG 2016-09-30 16:10:56,339 [89   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 0be74fd5-ff1f-4de4-8b1d-c9faf098da4b
+DEBUG 2016-09-30 16:11:25,429 [19   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 0be74fd5-ff1f-4de4-8b1d-c9faf098da4b
+WARN  2016-09-30 16:11:25,907 [9    ] Abp.Logging.LogHelper                    - Can not find 'Task List' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:11:25,908 [9    ] Abp.Logging.LogHelper                    - Can not find 'New Task' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:11:25,909 [9    ] Abp.Logging.LogHelper                    - Can not find 'Person List' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:11:25,910 [9    ] Abp.Logging.LogHelper                    - Can not find 'New Person' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:11:25,910 [9    ] Abp.Logging.LogHelper                    - Can not find 'Admin Menu' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:11:25,936 [9    ] Abp.Logging.LogHelper                    - Can not find 'User' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:11:25,937 [9    ] Abp.Logging.LogHelper                    - Can not find 'Task' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:11:25,938 [9    ] Abp.Logging.LogHelper                    - Can not find 'Settings' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:11:25,946 [9    ] Abp.Logging.LogHelper                    - Can not find 'Other' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:11:25,956 [9    ] Abp.Logging.LogHelper                    - Can not find 'Cache' in localization source 'TaskSystem'!
+WARN  2016-09-30 16:11:25,956 [9    ] Abp.Logging.LogHelper                    - Can not find 'Game' in localization source 'TaskSystem'!
+DEBUG 2016-09-30 16:11:26,357 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"336c3d27-e245-48a0-b2f4-143c727743b0","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-09-30T16:11:26.3573784+02:00","Properties":{}}
+DEBUG 2016-09-30 16:11:26,361 [89   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 336c3d27-e245-48a0-b2f4-143c727743b0
