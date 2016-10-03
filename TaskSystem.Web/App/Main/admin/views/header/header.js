@@ -1,10 +1,10 @@
 ﻿(function () {
-   var app = angular.module('app');
+    var appAdmin = angular.module('app');
 
-   var controllerId = 'adminheader';
-   app.controller(controllerId, [
-       '$rootScope', '$state', 'appSession', 'Header',
-       function ($rootScope, $state, appSession, Header) {
+   var controllerId = 'admin.header';
+   appAdmin.controller(controllerId, [
+       '$rootScope', '$state', 'appSession',
+       function ($rootScope, $state, appSession) {
           var vm = this;
 
           vm.languages = abp.localization.languages;
@@ -20,9 +20,9 @@
           });
 
           //Select or deselect admin mode
-          vm.changeAdmin = function () {
-             Header.switchHeader();
-          };
+          //vm.changeAdmin = function () {
+          //   Header.switchHeader();
+          //};
 
           abp.event.on('abp.notifications.received', function (userNotification) {
              abp.notifications.showUiNotifyForUserNotification(userNotification);

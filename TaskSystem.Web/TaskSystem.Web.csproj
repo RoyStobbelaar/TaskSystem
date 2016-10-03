@@ -302,6 +302,7 @@
     <Content Include="Abp\Framework\styles\abp.mixings.min.css" />
     <Content Include="Abp\Framework\styles\utils\ie10fix.css" />
     <None Include="App\Main\admin\views\adminindex.cshtml" />
+    <Content Include="App\Main\admin\appAdmin.js" />
     <Content Include="App\Main\admin\views\cache\cache.js" />
     <Content Include="App\Main\admin\views\defaultAdmin.cshtml" />
     <Content Include="App\Main\admin\views\game\game.cshtml" />
@@ -310,7 +311,10 @@
     <Content Include="App\Main\admin\views\adminindex.js" />
     <Content Include="App\Main\admin\views\game\game.js" />
     <Content Include="App\Main\admin\views\header\header.js" />
+    <Content Include="App\Main\admin\views\layout\layout.cshtml" />
+    <Content Include="App\Main\admin\views\layout\defaultAdmin.cshtml" />
     <None Include="App\Main\admin\views\settings\settings.cshtml" />
+    <Content Include="App\Main\admin\views\layout\layout.js" />
     <Content Include="App\Main\admin\views\settings\settings.js" />
     <Content Include="App\Main\admin\views\tasks\tasks.js" />
     <Content Include="App\Main\admin\views\users\users.js" />

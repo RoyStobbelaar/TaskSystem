@@ -1,0 +1,16 @@
+﻿<!--Include header-->
+<div ng-include="'/App/Main/admin/views/header/header.cshtml'"></div>
+
+<div class="row" ng-controller="admin.layout as vm">
+
+    <div class="col-md-3 adminMenu">
+        <a ng-href="#/admin{{module.url}}" ng-repeat="module in vm.modules"><div class="adminMenuItem">{{module.moduleName}}</div></a>
+    </div>
+
+    <div class="angular-animation-container">
+
+        <div ui-view class="shuffle-animation col-md-8 adminContent">
+            <div ng-include="'/App/Main/admin/views/layout/defaultAdmin.cshtml'"></div>
+        </div>
+    </div>
+</div>
